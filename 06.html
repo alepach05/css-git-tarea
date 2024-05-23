@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+        header {
+            background-color: #db5a3a;
+            text-align: center;
+            padding: 1rem;
+            padding-bottom: 5rem;
+            border: 1px solid;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+        .sidebar {
+            background-color: #8bd48b;
+            width: 15rem;
+            padding: 1rem;
+            top: 3.5rem;
+            bottom: 0;
+            border: 1px solid;
+        }
+        
+        .main {
+            flex: 1;
+            overflow-y: auto;
+        }
+        .section-1 {
+            background-color: #9e63e2;
+            flex: 1;
+            padding: 1rem;
+            height: 100vh; 
+            box-sizing: border-box;
+            border: 1px solid;
+        }
+        .section-2 {
+            background-color: #fcfc19;
+            flex: 1;
+            padding: 1rem;
+            height: 100vh; 
+            box-sizing: border-box;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <div class="sidebar"></div>
+        <div class="main">
+            <div class="section-1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sit amet, voluptas cupiditate, optio exercitationem assumenda facilis praesentium quae similique voluptatum, ratione sed sunt dolores? Architecto blanditiis saepe facilis eius.</p></div>
+            <div class="section-2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sit amet, voluptas cupiditate, optio exercitationem assumenda facilis praesentium quae similique voluptatum, ratione sed sunt dolores? Architecto blanditiis saepe facilis eius.</p></div>
+        </div>
+    </div>
+</body>
+</html>
